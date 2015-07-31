@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="UTF-8"%>
-    <%@taglib uri="http://java.sun.com/jstl/core" prefix="c"%>
+    <%@taglib uri="http://java.sun.com/jstl/core" prefix="r"%>
 
 <!DOCTYPE html>
 <html lang="es">
