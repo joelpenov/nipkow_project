@@ -8,6 +8,12 @@
   <name>Nipkow Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+      <dependency>
+      	<groupId>junit</groupId>
+      	<artifactId>junit</artifactId>
+     	 <version>3.8.1</version>
+      	<scope>test</scope>
+    </dependency>
 	  <dependency>
 		<groupId>org.springframework</groupId>
 		<artifactId>spring-core</artifactId>
@@ -23,13 +29,17 @@
 		<artifactId>spring-webmvc</artifactId>
 		<version>4.1.7.RELEASE</version>
 	</dependency>
-  	
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
+	 <dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>javax.servlet-api</artifactId>
+		<version>3.1.0</version>
+		<scope>provided</scope>
+	</dependency>
+  	<dependency>
+		<groupId>javax.servlet.jsp.jstl</groupId>
+		<artifactId>jstl-api</artifactId>
+		<version>1.2-rev-1</version>
+	</dependency>
   </dependencies>
   <build>
     <finalName>Nipkow</finalName>
