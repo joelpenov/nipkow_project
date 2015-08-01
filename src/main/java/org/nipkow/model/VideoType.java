@@ -7,5 +7,7 @@ public enum VideoType {
 	MOVIE,
 	SERIE,
 	MUSICAL,
-	SPECIAL
+	SPECIAL,
+	DOCUMENTAL,
+	LIVE
 }
