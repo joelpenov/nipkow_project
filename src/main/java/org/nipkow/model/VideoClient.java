@@ -1,6 +1,7 @@
 package org.nipkow.model;
 
 public class VideoClient {
+	
 	private int id;
 	private Client client;
 	private Video video;

@@ -5,6 +5,7 @@ public class PlayListVideo {
 	private PlayList list;
 	private Video video;
 	private int index;
+	
 	public PlayList getList() {
 		return list;
 	}
@@ -22,7 +23,5 @@ public class PlayListVideo {
 	}
 	public void setIndex(int index) {
 		this.index = index;
-	}
-	
-	
+	}	
 }

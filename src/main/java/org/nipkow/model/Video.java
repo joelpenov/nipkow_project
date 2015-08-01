@@ -3,6 +3,8 @@ package org.nipkow.model;
 import java.util.Date;
 
 public class Video {
+	
+	private int id;
 	private String name;
 	private String filePath;
 	private String comment;
@@ -43,16 +45,16 @@ public class Video {
 		this.secondsQuantity = secondsQuantity;
 	}
 	public String getPreviewFrameURL() {
-		return previewFrameURL;
+		return previewFramePath;
 	}
 	public void setPreviewFrameURL(String previewFrameURL) {
-		this.previewFrameURL = previewFrameURL;
+		this.previewFramePath = previewFrameURL;
 	}
 	public Date getAddDate() {
-		return addDate;
+		return addedDate;
 	}
 	public void setAddDate(Date addDate) {
-		this.addDate = addDate;
+		this.addedDate = addDate;
 	}
 	public boolean isActive() {
 		return active;
