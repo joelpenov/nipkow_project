@@ -14,7 +14,7 @@
   </servlet>
   
   <servlet-mapping>
-  	<servlet-name>nipkowPortal</servlet-name>
+  	<servlet-name>nipkowPortal</servlet-name>  	
   	<url-pattern>*.html</url-pattern>
   </servlet-mapping>
   <display-name>Nipkow System</display-name>
